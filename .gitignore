@@ -1,0 +1,30 @@
+# === СИСТЕМНЫЕ ФАЙЛЫ ===
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# === BACKEND (Python) ===
+crm_backend/__pycache__/
+crm_backend/*.py[cod]
+crm_backend/venv/
+crm_backend/.venv/
+crm_backend/env/
+crm_backend/.env
+crm_backend/*.sqlite3
+crm_backend/alembic/versions/__pycache__/
+
+# === FRONTEND (Node.js / React) ===
+# Важно: эти правила теперь глобальные
+node_modules/
+**/node_modules/
+crm_frontend/build/
+crm_frontend/dist/
+crm_frontend/.eslintcache
+crm_frontend/npm-debug.log*
+crm_frontend/yarn-debug.log*
+crm_frontend/yarn-error.log*
+
+# === DOCKER ===
+docker-compose.override.yml

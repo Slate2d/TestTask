@@ -1,0 +1,12 @@
+.header {
+  border-bottom: 2px solid #eee;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+
+.tableWrapper {
+  overflow-x: auto;
+  background: var(--white);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+}
